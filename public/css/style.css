@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+.navbar {
+    background: #e3b448;
+}
+.mainContentContainer {
+    background: #cbd18f;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.actionBoxTabCph {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    cursor: pointer;
+    min-height: 100px;
+    height: 100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+.empthyCardMain {
+    margin-bottom: 30px;
+    border: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, 0.05);
+    box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, 0.05);
+}
+
+.empthyCardMain .card-header {
+    background-color: #fff;
+    border-bottom: none;
+    padding: 24px;
+    border-bottom: 1px solid #f6f7fb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.empthyCardMainheader:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.empthyCardMain .card-body {
+    padding: 30px;
+    background-color: transparent;
+}
+
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #4466f2 !important;
+    border-color: #4466f2 !important;
+}
+
+.billing-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.billing-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.billing-header h2 {
+    color: #007bff;
+}
+
+.billing-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.billing-details div {
+    flex: 1;
+}
+
+.billing-addresses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.billing-addresses div {
+    flex: 1;
+}
+
+.billing-items {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.billing-items th,
+.billing-items td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.billing-total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.billing-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cph_header_list_name {
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: bold;
+}
+
+.shortcut-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60px; /* Adjust the width as needed */
+    background-color: #343a40; /* Bootstrap dark background color */
+    padding-top: 1rem;
+}
+
+.shortcut-bar a {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.shortcut-bar a:hover {
+    background-color: #495057; /* Bootstrap secondary color */
+}

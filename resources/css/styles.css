@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+.navbar {
+    background: #e3b448;
+}
+.mainContentContainer {
+    background: #cbd18f;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
