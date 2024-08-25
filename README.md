@@ -7,12 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-
-
-```markdown
 # 🛒 Laravel E-Commerce Platform
 
-Welcome to the **Laravel E-Commerce Platform**! This project is a comprehensive e-commerce solution built with Laravel, featuring both an admin panel and a user-friendly frontend. Whether you're managing your products or browsing as a customer, this platform has you covered.
+Welcome to the **Laravel E-Commerce Platform**! This project is a comprehensive e-commerce solution built with Laravel 10, featuring both an admin panel and a user-friendly frontend. Whether you're managing your products or browsing as a customer, this platform has you covered.
 
 ## 🎛️ Admin Panel Features
 
@@ -51,26 +48,3 @@ To get started with the Laravel E-Commerce Platform, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/laravel-ecommerce-platform.git
-   ```
-
-2. Install dependencies:
-   ```bash
-   composer install
-   npm install
-   ```
-
-3. Set up your `.env` file with the necessary configuration:
-   - Database settings
-   - Razorpay API keys
-
-4. Run the migrations and seed the database:
-   ```bash
-   php artisan migrate --seed
-   ```
-
-5. Start the development server:
-   ```bash
-   php artisan serve
-   ```
-
-Now, you can access the admin panel at `http://localhost:8000/CPH` and the frontend at `http://localhost:8000`.
