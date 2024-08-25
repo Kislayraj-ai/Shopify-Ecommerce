@@ -73,13 +73,4 @@ To get started with the Laravel E-Commerce Platform, follow these steps:
    php artisan serve
    ```
 
-Now, you can access the admin panel at `http://localhost:8000/admin` and the frontend at `http://localhost:8000`.
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
+Now, you can access the admin panel at `http://localhost:8000/CPH` and the frontend at `http://localhost:8000`.
