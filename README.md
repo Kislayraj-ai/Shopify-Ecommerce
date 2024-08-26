@@ -47,4 +47,5 @@ To get started with the Laravel E-Commerce Platform, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/laravel-ecommerce-platform.git
+
+      git clone https://github.com/yourusername/Shopify-Ecommerce.git
